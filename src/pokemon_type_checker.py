@@ -174,10 +174,10 @@ class Box:
         self.calc.place(x=90, y=268)
 
         self.output = Text(self.root, height=1, width=20)
-        self.output.place(x=160, y=270)
+        self.output.place(x=190, y=270)
 
         self.exit = Button(self.root, text="EXIT", command=self.exit)
-        self.exit.place(x=180, y=310)
+        self.exit.place(x=238, y=310)
 
     def show_output(self):
         self.output.delete(0.0, END)
@@ -472,5 +472,5 @@ class Box:
 
 
 if __name__ == "__main__":
-    box1 = Box(398, 350)
+    box1 = Box(540, 350)
     box1.run()
